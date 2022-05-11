@@ -16,6 +16,4 @@ jobs:
           envkey_DATABASE_URL: 'postgres://postgres:123456@db:5432/repoprovas_test'
           file_name: .env.test
       - name: Run tests
-        run: docker-compose -f docker-compose-test.yml run node_app npm run test
-      - name: Build
-        run: npm i && npm run build
+        run: docker-compose -f docker-compose-tests.yml run node_app npm run test
