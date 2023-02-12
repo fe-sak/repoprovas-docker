@@ -22,7 +22,7 @@
     "@types/supertest": "^2.0.12",
     "dotenv-cli": "^5.1.0",
     "jest": "^27.5.1",
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.20",
     "prisma": "^3.13.0",
     "supertest": "^6.2.3",
     "ts-jest": "^27.1.4",
